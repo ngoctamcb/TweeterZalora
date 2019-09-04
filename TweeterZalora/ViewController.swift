@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         KeyboardAvoiding.avoidingView = inputMessageView
+        inputTextField.text = "I can't believe Tweeter now supports chunking my messages, so I don't have to do it myself."
     }
     
     @objc func keyboardWillShow(_ notification:Notification) {
@@ -46,7 +47,7 @@ class ViewController: UIViewController {
     
     @IBAction func didTapSend(_ sender: Any) {
         
-        listMessageSplit.append(inputTextField.text!)
+        listMessageSplit += Helper.tweet(messageInput: inputTextField.text!, limit: 50)
         tableView.reloadData()
         inputTextField.text = ""
     }

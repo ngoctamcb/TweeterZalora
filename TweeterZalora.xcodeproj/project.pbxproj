@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		DB1C2275231F91FB0096F36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1C2273231F91FB0096F36F /* LaunchScreen.storyboard */; };
 		DB1C2280231F91FB0096F36F /* TweeterZaloraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C227F231F91FB0096F36F /* TweeterZaloraTests.swift */; };
 		DB1C228B231F91FB0096F36F /* TweeterZaloraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C228A231F91FB0096F36F /* TweeterZaloraUITests.swift */; };
+		DB1C2299231F9D860096F36F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C2298231F9D860096F36F /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		DB1C2286231F91FB0096F36F /* TweeterZaloraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweeterZaloraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1C228A231F91FB0096F36F /* TweeterZaloraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweeterZaloraUITests.swift; sourceTree = "<group>"; };
 		DB1C228C231F91FB0096F36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1C2298231F9D860096F36F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		F839569E3DADA5BD3E53360A /* Pods-TweeterZaloraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweeterZaloraUITests.release.xcconfig"; path = "Target Support Files/Pods-TweeterZaloraUITests/Pods-TweeterZaloraUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +101,6 @@
 				0E4300388E75F33B9FFE2408 /* Pods-TweeterZaloraUITests.debug.xcconfig */,
 				F839569E3DADA5BD3E53360A /* Pods-TweeterZaloraUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +135,7 @@
 				DB1C2271231F91FB0096F36F /* Assets.xcassets */,
 				DB1C2273231F91FB0096F36F /* LaunchScreen.storyboard */,
 				DB1C2276231F91FB0096F36F /* Info.plist */,
+				DB1C2298231F9D860096F36F /* Helper.swift */,
 			);
 			path = TweeterZalora;
 			sourceTree = "<group>";
@@ -388,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1C226D231F91F90096F36F /* ViewController.swift in Sources */,
+				DB1C2299231F9D860096F36F /* Helper.swift in Sources */,
 				DB1C226B231F91F90096F36F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
