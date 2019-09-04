@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DB998DD6A35C32A42120BFC51EA369 /* Pods-TweeterZalora-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FC00D2C96336BFBFFEF5E66CE0B5A2 /* Pods-TweeterZalora-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B3989C3AFB1B0A02696FFA31F359340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		20361391B18108E444C89AD5E723120A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		2A58D1424A6A7F2449A83E400A2420C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		3045125744014703602E03534B143525 /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 115F461B0B9424953EC72CC7690A7539 /* IHKeyboardAvoiding-dummy.m */; };
+		33EE01EF17A1BEFD72C78694F50895B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		539DCF40B7F4F6F6206B29CB0CBB227F /* IHKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 818278B1E2663F09AFD68F6C6727E5E9 /* IHKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5634C27AF071024EFED4BF4FE4C7EC9D /* Pods-TweeterZaloraTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B414893D10FCAD73E0E2848DCEDF1891 /* Pods-TweeterZaloraTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6783D3CC415F39415E837E86D95A70B0 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF62AA3FFC0DE033E052DE4D4E2972A /* KeyboardAvoiding.swift */; };
+		6D9FD1874B76867E72FF935D52FDA40E /* Pods-TweeterZaloraUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF88D2969EE37E262BA54882BD865BE /* Pods-TweeterZaloraUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		730C3CA0C1E8D8A3DC542DB45912DBBE /* Pods-TweeterZalora-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD75336247DC097419078574C43C601 /* Pods-TweeterZalora-dummy.m */; };
+		82A0BE95CCF791118BEA149220979246 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B0EF99AEF4F16DCB2776270ADB3773 /* KeyboardDismissingView.swift */; };
+		AF67C5B2E95F20AB7B57880ED6B2A2C4 /* Pods-TweeterZaloraTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB15CB6E566BE28170E2F8B716ED4ADD /* Pods-TweeterZaloraTests-dummy.m */; };
+		DC2C41407B79334D38D600B4B8853F70 /* Pods-TweeterZaloraUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB00AE594E815079DC705677130245 /* Pods-TweeterZaloraUITests-dummy.m */; };
+		DED9172E49400CF4873B0AD34C2397E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C22EC151E7B46A39F04445DB81CCE6DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFF0CC23BB4E4D82F9C68691B31D7B9;
+			remoteInfo = "Pods-TweeterZalora";
+		};
+		C5C69AD92028E91B32270D5EDD2B4AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E078D0497EB06B70930AA116C544BC4F;
+			remoteInfo = IHKeyboardAvoiding;
+		};
+		EB5901E62BA4D680CEF888B0DBA21A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFF0CC23BB4E4D82F9C68691B31D7B9;
+			remoteInfo = "Pods-TweeterZalora";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09B66C2E0BFEC36D58AF5D3B3F45789D /* IHKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IHKeyboardAvoiding.framework; path = IHKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		115F461B0B9424953EC72CC7690A7539 /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		15A3E511BE5171978BE3AF73173EC7F7 /* Pods_TweeterZalora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TweeterZalora.framework; path = "Pods-TweeterZalora.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CF48C19B966ED5075B0E351EF7617F /* Pods-TweeterZalora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweeterZalora.debug.xcconfig"; sourceTree = "<group>"; };
+		201F5FCCB830B4ABD9670CA815678225 /* Pods-TweeterZalora-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweeterZalora-acknowledgements.plist"; sourceTree = "<group>"; };
+		20C99EAFD34C0D4539894F9B251EB4CC /* Pods-TweeterZaloraUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TweeterZaloraUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A45A525B18764E8F6BD694507A3D57F /* Pods-TweeterZaloraTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweeterZaloraTests-Info.plist"; sourceTree = "<group>"; };
+		3FFB00AE594E815079DC705677130245 /* Pods-TweeterZaloraUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TweeterZaloraUITests-dummy.m"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		465213D940578FD695B79ED52959DAF9 /* Pods_TweeterZaloraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TweeterZaloraUITests.framework; path = "Pods-TweeterZaloraUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF88D2969EE37E262BA54882BD865BE /* Pods-TweeterZaloraUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TweeterZaloraUITests-umbrella.h"; sourceTree = "<group>"; };
+		61453093375A74A274E465B378B27C2D /* Pods-TweeterZaloraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweeterZaloraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		633552035EB85C81D0FDEF6B2523B3E1 /* Pods-TweeterZaloraTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TweeterZaloraTests.modulemap"; sourceTree = "<group>"; };
+		7503195BE7AE99C6737AD9352BD34EA5 /* Pods-TweeterZalora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweeterZalora.release.xcconfig"; sourceTree = "<group>"; };
+		818278B1E2663F09AFD68F6C6727E5E9 /* IHKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
+		82D528E19A38ADF42F7D61A024DFB276 /* Pods-TweeterZaloraUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweeterZaloraUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		834D60F5647F6FD9557C48EE1D95D74B /* Pods-TweeterZaloraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweeterZaloraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7B7AFF8C5B95C8C851D057F78C75D0 /* Pods_TweeterZaloraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TweeterZaloraTests.framework; path = "Pods-TweeterZaloraTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD75336247DC097419078574C43C601 /* Pods-TweeterZalora-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TweeterZalora-dummy.m"; sourceTree = "<group>"; };
+		9AE7204ABB8B647B9380475564C022E0 /* IHKeyboardAvoiding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IHKeyboardAvoiding-Info.plist"; sourceTree = "<group>"; };
+		9CE447723AA67DA8F1FBE47676F91FBD /* Pods-TweeterZalora-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweeterZalora-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF67BEBA0F78E6CEECF64E0EC7BDEC3 /* Pods-TweeterZaloraTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TweeterZaloraTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A88F086B8E0B850C214E23CFAA5D1494 /* Pods-TweeterZaloraUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweeterZaloraUITests-Info.plist"; sourceTree = "<group>"; };
+		B0023AC0856FB779DBAD6DED5DFA5CEA /* Pods-TweeterZaloraUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TweeterZaloraUITests.modulemap"; sourceTree = "<group>"; };
+		B414893D10FCAD73E0E2848DCEDF1891 /* Pods-TweeterZaloraTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TweeterZaloraTests-umbrella.h"; sourceTree = "<group>"; };
+		B8077A1D3DFB6910B3C587BAD4CB6983 /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		B9FC00D2C96336BFBFFEF5E66CE0B5A2 /* Pods-TweeterZalora-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TweeterZalora-umbrella.h"; sourceTree = "<group>"; };
+		CA28844110311D1DB0CC29859B4E67F4 /* Pods-TweeterZaloraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweeterZaloraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFF62AA3FFC0DE033E052DE4D4E2972A /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Sources/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		D3EB89AAA73C5EB5878AB680BAE6B44F /* IHKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IHKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		D5B0EF99AEF4F16DCB2776270ADB3773 /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Sources/KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		D82AB720E41469D3960BDBDE18D3C82F /* Pods-TweeterZaloraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TweeterZaloraTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED7CC8F8C4A9DBB53982076C8F8E32D3 /* Pods-TweeterZalora.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TweeterZalora.modulemap"; sourceTree = "<group>"; };
+		EE6FE506BE2DE8A1B8B6DB9A1DF13D92 /* Pods-TweeterZaloraTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TweeterZaloraTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F34C5F0D897B5116130491BF120FDCCB /* Pods-TweeterZalora-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TweeterZalora-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8671AFE6D5F28AF16FE16E9BB168F41 /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		FB15CB6E566BE28170E2F8B716ED4ADD /* Pods-TweeterZaloraTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TweeterZaloraTests-dummy.m"; sourceTree = "<group>"; };
+		FC73587322DA19B29A9481332A96D6F6 /* Pods-TweeterZalora-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TweeterZalora-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C49EC0BEDFC6947AB298B3149B39EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A58D1424A6A7F2449A83E400A2420C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8F521963D3A08E207B621B39679C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED9172E49400CF4873B0AD34C2397E1 /* Foundation.framework in Frameworks */,
+				20361391B18108E444C89AD5E723120A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB36D7CF0A521B96777303427249CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3989C3AFB1B0A02696FFA31F359340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6F4BCCB56033347F906D651B2DDC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EE01EF17A1BEFD72C78694F50895B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DF19F847FD9D22CC55FF54796675875 /* Pods-TweeterZaloraTests */ = {
+			isa = PBXGroup;
+			children = (
+				633552035EB85C81D0FDEF6B2523B3E1 /* Pods-TweeterZaloraTests.modulemap */,
+				9EF67BEBA0F78E6CEECF64E0EC7BDEC3 /* Pods-TweeterZaloraTests-acknowledgements.markdown */,
+				EE6FE506BE2DE8A1B8B6DB9A1DF13D92 /* Pods-TweeterZaloraTests-acknowledgements.plist */,
+				FB15CB6E566BE28170E2F8B716ED4ADD /* Pods-TweeterZaloraTests-dummy.m */,
+				3A45A525B18764E8F6BD694507A3D57F /* Pods-TweeterZaloraTests-Info.plist */,
+				B414893D10FCAD73E0E2848DCEDF1891 /* Pods-TweeterZaloraTests-umbrella.h */,
+				CA28844110311D1DB0CC29859B4E67F4 /* Pods-TweeterZaloraTests.debug.xcconfig */,
+				D82AB720E41469D3960BDBDE18D3C82F /* Pods-TweeterZaloraTests.release.xcconfig */,
+			);
+			name = "Pods-TweeterZaloraTests";
+			path = "Target Support Files/Pods-TweeterZaloraTests";
+			sourceTree = "<group>";
+		};
+		405B605B57B7A30C9140AF0E8C208E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B66C2E0BFEC36D58AF5D3B3F45789D /* IHKeyboardAvoiding.framework */,
+				15A3E511BE5171978BE3AF73173EC7F7 /* Pods_TweeterZalora.framework */,
+				8A7B7AFF8C5B95C8C851D057F78C75D0 /* Pods_TweeterZaloraTests.framework */,
+				465213D940578FD695B79ED52959DAF9 /* Pods_TweeterZaloraUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F9137CBA337303098641161AB62DC9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A12600F5699E8B66C3DD5EE312B8C35 /* Pods-TweeterZalora */,
+				3DF19F847FD9D22CC55FF54796675875 /* Pods-TweeterZaloraTests */,
+				EBEDBE350EFEB0068393F4373BCA43C3 /* Pods-TweeterZaloraUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4974CB15AB3BCA3C05486F0C2899652D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB89AAA73C5EB5878AB680BAE6B44F /* IHKeyboardAvoiding.modulemap */,
+				B8077A1D3DFB6910B3C587BAD4CB6983 /* IHKeyboardAvoiding.xcconfig */,
+				115F461B0B9424953EC72CC7690A7539 /* IHKeyboardAvoiding-dummy.m */,
+				9AE7204ABB8B647B9380475564C022E0 /* IHKeyboardAvoiding-Info.plist */,
+				F8671AFE6D5F28AF16FE16E9BB168F41 /* IHKeyboardAvoiding-prefix.pch */,
+				818278B1E2663F09AFD68F6C6727E5E9 /* IHKeyboardAvoiding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IHKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		4A12600F5699E8B66C3DD5EE312B8C35 /* Pods-TweeterZalora */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CC8F8C4A9DBB53982076C8F8E32D3 /* Pods-TweeterZalora.modulemap */,
+				F34C5F0D897B5116130491BF120FDCCB /* Pods-TweeterZalora-acknowledgements.markdown */,
+				201F5FCCB830B4ABD9670CA815678225 /* Pods-TweeterZalora-acknowledgements.plist */,
+				8DD75336247DC097419078574C43C601 /* Pods-TweeterZalora-dummy.m */,
+				FC73587322DA19B29A9481332A96D6F6 /* Pods-TweeterZalora-frameworks.sh */,
+				9CE447723AA67DA8F1FBE47676F91FBD /* Pods-TweeterZalora-Info.plist */,
+				B9FC00D2C96336BFBFFEF5E66CE0B5A2 /* Pods-TweeterZalora-umbrella.h */,
+				16CF48C19B966ED5075B0E351EF7617F /* Pods-TweeterZalora.debug.xcconfig */,
+				7503195BE7AE99C6737AD9352BD34EA5 /* Pods-TweeterZalora.release.xcconfig */,
+			);
+			name = "Pods-TweeterZalora";
+			path = "Target Support Files/Pods-TweeterZalora";
+			sourceTree = "<group>";
+		};
+		74D82DAEF39F543322ED2D00AB5A964F /* IHKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				CFF62AA3FFC0DE033E052DE4D4E2972A /* KeyboardAvoiding.swift */,
+				D5B0EF99AEF4F16DCB2776270ADB3773 /* KeyboardDismissingView.swift */,
+				4974CB15AB3BCA3C05486F0C2899652D /* Support Files */,
+			);
+			name = IHKeyboardAvoiding;
+			path = IHKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D53A7D1001028CACF59C4435A40A2027 /* Pods */,
+				405B605B57B7A30C9140AF0E8C208E62 /* Products */,
+				46F9137CBA337303098641161AB62DC9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D53A7D1001028CACF59C4435A40A2027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74D82DAEF39F543322ED2D00AB5A964F /* IHKeyboardAvoiding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBEDBE350EFEB0068393F4373BCA43C3 /* Pods-TweeterZaloraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0023AC0856FB779DBAD6DED5DFA5CEA /* Pods-TweeterZaloraUITests.modulemap */,
+				20C99EAFD34C0D4539894F9B251EB4CC /* Pods-TweeterZaloraUITests-acknowledgements.markdown */,
+				82D528E19A38ADF42F7D61A024DFB276 /* Pods-TweeterZaloraUITests-acknowledgements.plist */,
+				3FFB00AE594E815079DC705677130245 /* Pods-TweeterZaloraUITests-dummy.m */,
+				A88F086B8E0B850C214E23CFAA5D1494 /* Pods-TweeterZaloraUITests-Info.plist */,
+				5DF88D2969EE37E262BA54882BD865BE /* Pods-TweeterZaloraUITests-umbrella.h */,
+				834D60F5647F6FD9557C48EE1D95D74B /* Pods-TweeterZaloraUITests.debug.xcconfig */,
+				61453093375A74A274E465B378B27C2D /* Pods-TweeterZaloraUITests.release.xcconfig */,
+			);
+			name = "Pods-TweeterZaloraUITests";
+			path = "Target Support Files/Pods-TweeterZaloraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13EC12E4FF6DCCC8CCF5FC097F3E7287 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9FD1874B76867E72FF935D52FDA40E /* Pods-TweeterZaloraUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC5DE60DC840C3EA6A77C4051A4BD26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DB998DD6A35C32A42120BFC51EA369 /* Pods-TweeterZalora-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416FB3D0E01501E8237962175ECAA69A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539DCF40B7F4F6F6206B29CB0CBB227F /* IHKeyboardAvoiding-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9784D587D5A996E10002591604FB9306 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5634C27AF071024EFED4BF4FE4C7EC9D /* Pods-TweeterZaloraTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CCFF0CC23BB4E4D82F9C68691B31D7B9 /* Pods-TweeterZalora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B513A07800F406365140C117B8220DA /* Build configuration list for PBXNativeTarget "Pods-TweeterZalora" */;
+			buildPhases = (
+				3DC5DE60DC840C3EA6A77C4051A4BD26 /* Headers */,
+				320C368A933F029494B45AD0B6A14559 /* Sources */,
+				1C49EC0BEDFC6947AB298B3149B39EE3 /* Frameworks */,
+				7D229194A9CE700F9507595D3AD186F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A507FEAEF253B51E8E23C544E81DD41B /* PBXTargetDependency */,
+			);
+			name = "Pods-TweeterZalora";
+			productName = "Pods-TweeterZalora";
+			productReference = 15A3E511BE5171978BE3AF73173EC7F7 /* Pods_TweeterZalora.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E078D0497EB06B70930AA116C544BC4F /* IHKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED5325A5545E52EEF12048EBD36F45A /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */;
+			buildPhases = (
+				416FB3D0E01501E8237962175ECAA69A /* Headers */,
+				05E285AADF1A170F9F6D14301B00D6A2 /* Sources */,
+				7B8F521963D3A08E207B621B39679C03 /* Frameworks */,
+				50E514856F35936142591AEDBDCBB809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHKeyboardAvoiding;
+			productName = IHKeyboardAvoiding;
+			productReference = 09B66C2E0BFEC36D58AF5D3B3F45789D /* IHKeyboardAvoiding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9D64AC6EC9924D5587D257A6D92A187 /* Pods-TweeterZaloraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A8B4BC758D9E96FBEFCB8629F1DF62 /* Build configuration list for PBXNativeTarget "Pods-TweeterZaloraUITests" */;
+			buildPhases = (
+				13EC12E4FF6DCCC8CCF5FC097F3E7287 /* Headers */,
+				9CBCC5F7BFF1AEB08CA78A4D5F35F318 /* Sources */,
+				AAB36D7CF0A521B96777303427249CCF /* Frameworks */,
+				24BD773C21D7BB89C272F5CEFD57AE36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B03F36257C728AF06F250F02A99003 /* PBXTargetDependency */,
+			);
+			name = "Pods-TweeterZaloraUITests";
+			productName = "Pods-TweeterZaloraUITests";
+			productReference = 465213D940578FD695B79ED52959DAF9 /* Pods_TweeterZaloraUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF91B22A527E7741D88BD7BAE27BBD25 /* Pods-TweeterZaloraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484458CC835FC6270FC5E75C04B923E3 /* Build configuration list for PBXNativeTarget "Pods-TweeterZaloraTests" */;
+			buildPhases = (
+				9784D587D5A996E10002591604FB9306 /* Headers */,
+				45D0905D3AE7B000E801E3528188AE40 /* Sources */,
+				BC6F4BCCB56033347F906D651B2DDC6D /* Frameworks */,
+				646DD30DF58C9B93FB2BFF9D09D0C564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3D9C7BAB202694C38BF0FF9D4ADF68 /* PBXTargetDependency */,
+			);
+			name = "Pods-TweeterZaloraTests";
+			productName = "Pods-TweeterZaloraTests";
+			productReference = 8A7B7AFF8C5B95C8C851D057F78C75D0 /* Pods_TweeterZaloraTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 405B605B57B7A30C9140AF0E8C208E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E078D0497EB06B70930AA116C544BC4F /* IHKeyboardAvoiding */,
+				CCFF0CC23BB4E4D82F9C68691B31D7B9 /* Pods-TweeterZalora */,
+				EF91B22A527E7741D88BD7BAE27BBD25 /* Pods-TweeterZaloraTests */,
+				E9D64AC6EC9924D5587D257A6D92A187 /* Pods-TweeterZaloraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24BD773C21D7BB89C272F5CEFD57AE36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E514856F35936142591AEDBDCBB809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646DD30DF58C9B93FB2BFF9D09D0C564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D229194A9CE700F9507595D3AD186F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05E285AADF1A170F9F6D14301B00D6A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3045125744014703602E03534B143525 /* IHKeyboardAvoiding-dummy.m in Sources */,
+				6783D3CC415F39415E837E86D95A70B0 /* KeyboardAvoiding.swift in Sources */,
+				82A0BE95CCF791118BEA149220979246 /* KeyboardDismissingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320C368A933F029494B45AD0B6A14559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730C3CA0C1E8D8A3DC542DB45912DBBE /* Pods-TweeterZalora-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D0905D3AE7B000E801E3528188AE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF67C5B2E95F20AB7B57880ED6B2A2C4 /* Pods-TweeterZaloraTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBCC5F7BFF1AEB08CA78A4D5F35F318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2C41407B79334D38D600B4B8853F70 /* Pods-TweeterZaloraUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E3D9C7BAB202694C38BF0FF9D4ADF68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TweeterZalora";
+			target = CCFF0CC23BB4E4D82F9C68691B31D7B9 /* Pods-TweeterZalora */;
+			targetProxy = EB5901E62BA4D680CEF888B0DBA21A1A /* PBXContainerItemProxy */;
+		};
+		A507FEAEF253B51E8E23C544E81DD41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IHKeyboardAvoiding;
+			target = E078D0497EB06B70930AA116C544BC4F /* IHKeyboardAvoiding */;
+			targetProxy = C5C69AD92028E91B32270D5EDD2B4AC4 /* PBXContainerItemProxy */;
+		};
+		E1B03F36257C728AF06F250F02A99003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TweeterZalora";
+			target = CCFF0CC23BB4E4D82F9C68691B31D7B9 /* Pods-TweeterZalora */;
+			targetProxy = C22EC151E7B46A39F04445DB81CCE6DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C4E152C82E508C31B3EE50C49AF3305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82AB720E41469D3960BDBDE18D3C82F /* Pods-TweeterZaloraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweeterZaloraTests/Pods-TweeterZaloraTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweeterZaloraTests/Pods-TweeterZaloraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2B0F682C8C4229A900DCD2CDDE255200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CF48C19B966ED5075B0E351EF7617F /* Pods-TweeterZalora.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweeterZalora/Pods-TweeterZalora-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweeterZalora/Pods-TweeterZalora.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		61DE62CC970F6D277ED57B7A6D2CEF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7503195BE7AE99C6737AD9352BD34EA5 /* Pods-TweeterZalora.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweeterZalora/Pods-TweeterZalora-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweeterZalora/Pods-TweeterZalora.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		725B187915D708C0BF8837A2EA1CB006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA28844110311D1DB0CC29859B4E67F4 /* Pods-TweeterZaloraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweeterZaloraTests/Pods-TweeterZaloraTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweeterZaloraTests/Pods-TweeterZaloraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99E59C743B0D25B2EDB6CC0CFA91FF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8077A1D3DFB6910B3C587BAD4CB6983 /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
+				PRODUCT_MODULE_NAME = IHKeyboardAvoiding;
+				PRODUCT_NAME = IHKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA4F28F19C06AC147F271EF47B7D577F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8077A1D3DFB6910B3C587BAD4CB6983 /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
+				PRODUCT_MODULE_NAME = IHKeyboardAvoiding;
+				PRODUCT_NAME = IHKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFB023453DA2A3D893B14559B2CA7005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834D60F5647F6FD9557C48EE1D95D74B /* Pods-TweeterZaloraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweeterZaloraUITests/Pods-TweeterZaloraUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweeterZaloraUITests/Pods-TweeterZaloraUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC44AA21F92AE48F58F7D164D7B531C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61453093375A74A274E465B378B27C2D /* Pods-TweeterZaloraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TweeterZaloraUITests/Pods-TweeterZaloraUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TweeterZaloraUITests/Pods-TweeterZaloraUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A8B4BC758D9E96FBEFCB8629F1DF62 /* Build configuration list for PBXNativeTarget "Pods-TweeterZaloraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB023453DA2A3D893B14559B2CA7005 /* Debug */,
+				EC44AA21F92AE48F58F7D164D7B531C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484458CC835FC6270FC5E75C04B923E3 /* Build configuration list for PBXNativeTarget "Pods-TweeterZaloraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725B187915D708C0BF8837A2EA1CB006 /* Debug */,
+				1C4E152C82E508C31B3EE50C49AF3305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B513A07800F406365140C117B8220DA /* Build configuration list for PBXNativeTarget "Pods-TweeterZalora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0F682C8C4229A900DCD2CDDE255200 /* Debug */,
+				61DE62CC970F6D277ED57B7A6D2CEF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED5325A5545E52EEF12048EBD36F45A /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E59C743B0D25B2EDB6CC0CFA91FF15 /* Debug */,
+				CA4F28F19C06AC147F271EF47B7D577F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

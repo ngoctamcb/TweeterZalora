@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05BA992C6D3E1306BA3629ED /* Pods_TweeterZaloraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BB7EBCD27724B4368C90AE /* Pods_TweeterZaloraTests.framework */; };
+		1BC91A97694B99DF2F05EEBC /* Pods_TweeterZaloraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33410540F01F1F7A63B70FC2 /* Pods_TweeterZaloraUITests.framework */; };
+		94404A988C766C59A693D3E1 /* Pods_TweeterZalora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B05003D190215F5DA62BED2 /* Pods_TweeterZalora.framework */; };
 		DB1C226B231F91F90096F36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C226A231F91F90096F36F /* AppDelegate.swift */; };
 		DB1C226D231F91F90096F36F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C226C231F91F90096F36F /* ViewController.swift */; };
 		DB1C2270231F91F90096F36F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1C226E231F91F90096F36F /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E4300388E75F33B9FFE2408 /* Pods-TweeterZaloraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweeterZaloraUITests.debug.xcconfig"; path = "Target Support Files/Pods-TweeterZaloraUITests/Pods-TweeterZaloraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B05003D190215F5DA62BED2 /* Pods_TweeterZalora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweeterZalora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33410540F01F1F7A63B70FC2 /* Pods_TweeterZaloraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweeterZaloraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8C87B78A844B7AF670EEE9 /* Pods-TweeterZaloraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweeterZaloraTests.release.xcconfig"; path = "Target Support Files/Pods-TweeterZaloraTests/Pods-TweeterZaloraTests.release.xcconfig"; sourceTree = "<group>"; };
+		5495E40B166CA7A851DFDEEF /* Pods-TweeterZalora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweeterZalora.debug.xcconfig"; path = "Target Support Files/Pods-TweeterZalora/Pods-TweeterZalora.debug.xcconfig"; sourceTree = "<group>"; };
+		CA251A3271B88A9E7A30F0BA /* Pods-TweeterZalora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweeterZalora.release.xcconfig"; path = "Target Support Files/Pods-TweeterZalora/Pods-TweeterZalora.release.xcconfig"; sourceTree = "<group>"; };
+		D0A4C4925A671AE004987A34 /* Pods-TweeterZaloraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweeterZaloraTests.debug.xcconfig"; path = "Target Support Files/Pods-TweeterZaloraTests/Pods-TweeterZaloraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4BB7EBCD27724B4368C90AE /* Pods_TweeterZaloraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweeterZaloraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1C2267231F91F90096F36F /* TweeterZalora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweeterZalora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1C226A231F91F90096F36F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB1C226C231F91F90096F36F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		DB1C2286231F91FB0096F36F /* TweeterZaloraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweeterZaloraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1C228A231F91FB0096F36F /* TweeterZaloraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweeterZaloraUITests.swift; sourceTree = "<group>"; };
 		DB1C228C231F91FB0096F36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F839569E3DADA5BD3E53360A /* Pods-TweeterZaloraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweeterZaloraUITests.release.xcconfig"; path = "Target Support Files/Pods-TweeterZaloraUITests/Pods-TweeterZaloraUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94404A988C766C59A693D3E1 /* Pods_TweeterZalora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BA992C6D3E1306BA3629ED /* Pods_TweeterZaloraTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC91A97694B99DF2F05EEBC /* Pods_TweeterZaloraUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE6E5A3E070C0B54A28C41CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5495E40B166CA7A851DFDEEF /* Pods-TweeterZalora.debug.xcconfig */,
+				CA251A3271B88A9E7A30F0BA /* Pods-TweeterZalora.release.xcconfig */,
+				D0A4C4925A671AE004987A34 /* Pods-TweeterZaloraTests.debug.xcconfig */,
+				3A8C87B78A844B7AF670EEE9 /* Pods-TweeterZaloraTests.release.xcconfig */,
+				0E4300388E75F33B9FFE2408 /* Pods-TweeterZaloraUITests.debug.xcconfig */,
+				F839569E3DADA5BD3E53360A /* Pods-TweeterZaloraUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB1C225E231F91F90096F36F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				DB1C227E231F91FB0096F36F /* TweeterZaloraTests */,
 				DB1C2289231F91FB0096F36F /* TweeterZaloraUITests */,
 				DB1C2268231F91F90096F36F /* Products */,
+				AE6E5A3E070C0B54A28C41CF /* Pods */,
+				FB436C07B8AD7E8195FA8693 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +156,16 @@
 			path = TweeterZaloraUITests;
 			sourceTree = "<group>";
 		};
+		FB436C07B8AD7E8195FA8693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B05003D190215F5DA62BED2 /* Pods_TweeterZalora.framework */,
+				D4BB7EBCD27724B4368C90AE /* Pods_TweeterZaloraTests.framework */,
+				33410540F01F1F7A63B70FC2 /* Pods_TweeterZaloraUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB1C228F231F91FB0096F36F /* Build configuration list for PBXNativeTarget "TweeterZalora" */;
 			buildPhases = (
+				55BC155D58CE166A00F879AA /* [CP] Check Pods Manifest.lock */,
 				DB1C2263231F91F90096F36F /* Sources */,
 				DB1C2264231F91F90096F36F /* Frameworks */,
 				DB1C2265231F91F90096F36F /* Resources */,
+				179DC30D19C2B3423FB76400 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB1C2292231F91FB0096F36F /* Build configuration list for PBXNativeTarget "TweeterZaloraTests" */;
 			buildPhases = (
+				AC915536C069C26A2CA06E82 /* [CP] Check Pods Manifest.lock */,
 				DB1C2277231F91FB0096F36F /* Sources */,
 				DB1C2278231F91FB0096F36F /* Frameworks */,
 				DB1C2279231F91FB0096F36F /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB1C2295231F91FB0096F36F /* Build configuration list for PBXNativeTarget "TweeterZaloraUITests" */;
 			buildPhases = (
+				713647EDB08F5AEAF2DFFD87 /* [CP] Check Pods Manifest.lock */,
 				DB1C2282231F91FB0096F36F /* Sources */,
 				DB1C2283231F91FB0096F36F /* Frameworks */,
 				DB1C2284231F91FB0096F36F /* Resources */,
@@ -250,6 +295,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		179DC30D19C2B3423FB76400 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TweeterZalora/Pods-TweeterZalora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TweeterZalora/Pods-TweeterZalora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TweeterZalora/Pods-TweeterZalora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55BC155D58CE166A00F879AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TweeterZalora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		713647EDB08F5AEAF2DFFD87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TweeterZaloraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC915536C069C26A2CA06E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TweeterZaloraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB1C2263231F91F90096F36F /* Sources */ = {
@@ -430,6 +561,7 @@
 		};
 		DB1C2290231F91FB0096F36F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5495E40B166CA7A851DFDEEF /* Pods-TweeterZalora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +580,7 @@
 		};
 		DB1C2291231F91FB0096F36F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA251A3271B88A9E7A30F0BA /* Pods-TweeterZalora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +599,7 @@
 		};
 		DB1C2293231F91FB0096F36F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A4C4925A671AE004987A34 /* Pods-TweeterZaloraTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +620,7 @@
 		};
 		DB1C2294231F91FB0096F36F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8C87B78A844B7AF670EEE9 /* Pods-TweeterZaloraTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +641,7 @@
 		};
 		DB1C2296231F91FB0096F36F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4300388E75F33B9FFE2408 /* Pods-TweeterZaloraUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +661,7 @@
 		};
 		DB1C2297231F91FC0096F36F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F839569E3DADA5BD3E53360A /* Pods-TweeterZaloraUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
