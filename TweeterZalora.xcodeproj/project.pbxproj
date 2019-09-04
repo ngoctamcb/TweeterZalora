@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1C226B231F91F90096F36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C226A231F91F90096F36F /* AppDelegate.swift */; };
+		DB1C226D231F91F90096F36F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C226C231F91F90096F36F /* ViewController.swift */; };
+		DB1C2270231F91F90096F36F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1C226E231F91F90096F36F /* Main.storyboard */; };
+		DB1C2272231F91FB0096F36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1C2271231F91FB0096F36F /* Assets.xcassets */; };
+		DB1C2275231F91FB0096F36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1C2273231F91FB0096F36F /* LaunchScreen.storyboard */; };
+		DB1C2280231F91FB0096F36F /* TweeterZaloraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C227F231F91FB0096F36F /* TweeterZaloraTests.swift */; };
+		DB1C228B231F91FB0096F36F /* TweeterZaloraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C228A231F91FB0096F36F /* TweeterZaloraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1C227C231F91FB0096F36F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1C225F231F91F90096F36F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1C2266231F91F90096F36F;
+			remoteInfo = TweeterZalora;
+		};
+		DB1C2287231F91FB0096F36F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1C225F231F91F90096F36F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1C2266231F91F90096F36F;
+			remoteInfo = TweeterZalora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1C2267231F91F90096F36F /* TweeterZalora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweeterZalora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1C226A231F91F90096F36F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB1C226C231F91F90096F36F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB1C226F231F91F90096F36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1C2271231F91FB0096F36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1C2274231F91FB0096F36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1C2276231F91FB0096F36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1C227B231F91FB0096F36F /* TweeterZaloraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweeterZaloraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1C227F231F91FB0096F36F /* TweeterZaloraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweeterZaloraTests.swift; sourceTree = "<group>"; };
+		DB1C2281231F91FB0096F36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1C2286231F91FB0096F36F /* TweeterZaloraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweeterZaloraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1C228A231F91FB0096F36F /* TweeterZaloraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweeterZaloraUITests.swift; sourceTree = "<group>"; };
+		DB1C228C231F91FB0096F36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1C2264231F91F90096F36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1C2278231F91FB0096F36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1C2283231F91FB0096F36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1C225E231F91F90096F36F = {
+			isa = PBXGroup;
+			children = (
+				DB1C2269231F91F90096F36F /* TweeterZalora */,
+				DB1C227E231F91FB0096F36F /* TweeterZaloraTests */,
+				DB1C2289231F91FB0096F36F /* TweeterZaloraUITests */,
+				DB1C2268231F91F90096F36F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1C2268231F91F90096F36F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1C2267231F91F90096F36F /* TweeterZalora.app */,
+				DB1C227B231F91FB0096F36F /* TweeterZaloraTests.xctest */,
+				DB1C2286231F91FB0096F36F /* TweeterZaloraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1C2269231F91F90096F36F /* TweeterZalora */ = {
+			isa = PBXGroup;
+			children = (
+				DB1C226A231F91F90096F36F /* AppDelegate.swift */,
+				DB1C226C231F91F90096F36F /* ViewController.swift */,
+				DB1C226E231F91F90096F36F /* Main.storyboard */,
+				DB1C2271231F91FB0096F36F /* Assets.xcassets */,
+				DB1C2273231F91FB0096F36F /* LaunchScreen.storyboard */,
+				DB1C2276231F91FB0096F36F /* Info.plist */,
+			);
+			path = TweeterZalora;
+			sourceTree = "<group>";
+		};
+		DB1C227E231F91FB0096F36F /* TweeterZaloraTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1C227F231F91FB0096F36F /* TweeterZaloraTests.swift */,
+				DB1C2281231F91FB0096F36F /* Info.plist */,
+			);
+			path = TweeterZaloraTests;
+			sourceTree = "<group>";
+		};
+		DB1C2289231F91FB0096F36F /* TweeterZaloraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1C228A231F91FB0096F36F /* TweeterZaloraUITests.swift */,
+				DB1C228C231F91FB0096F36F /* Info.plist */,
+			);
+			path = TweeterZaloraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1C2266231F91F90096F36F /* TweeterZalora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1C228F231F91FB0096F36F /* Build configuration list for PBXNativeTarget "TweeterZalora" */;
+			buildPhases = (
+				DB1C2263231F91F90096F36F /* Sources */,
+				DB1C2264231F91F90096F36F /* Frameworks */,
+				DB1C2265231F91F90096F36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweeterZalora;
+			productName = TweeterZalora;
+			productReference = DB1C2267231F91F90096F36F /* TweeterZalora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1C227A231F91FB0096F36F /* TweeterZaloraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1C2292231F91FB0096F36F /* Build configuration list for PBXNativeTarget "TweeterZaloraTests" */;
+			buildPhases = (
+				DB1C2277231F91FB0096F36F /* Sources */,
+				DB1C2278231F91FB0096F36F /* Frameworks */,
+				DB1C2279231F91FB0096F36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1C227D231F91FB0096F36F /* PBXTargetDependency */,
+			);
+			name = TweeterZaloraTests;
+			productName = TweeterZaloraTests;
+			productReference = DB1C227B231F91FB0096F36F /* TweeterZaloraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB1C2285231F91FB0096F36F /* TweeterZaloraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1C2295231F91FB0096F36F /* Build configuration list for PBXNativeTarget "TweeterZaloraUITests" */;
+			buildPhases = (
+				DB1C2282231F91FB0096F36F /* Sources */,
+				DB1C2283231F91FB0096F36F /* Frameworks */,
+				DB1C2284231F91FB0096F36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1C2288231F91FB0096F36F /* PBXTargetDependency */,
+			);
+			name = TweeterZaloraUITests;
+			productName = TweeterZaloraUITests;
+			productReference = DB1C2286231F91FB0096F36F /* TweeterZaloraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1C225F231F91F90096F36F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tran Ngoc Tam";
+				TargetAttributes = {
+					DB1C2266231F91F90096F36F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DB1C227A231F91FB0096F36F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DB1C2266231F91F90096F36F;
+					};
+					DB1C2285231F91FB0096F36F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DB1C2266231F91F90096F36F;
+					};
+				};
+			};
+			buildConfigurationList = DB1C2262231F91F90096F36F /* Build configuration list for PBXProject "TweeterZalora" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1C225E231F91F90096F36F;
+			productRefGroup = DB1C2268231F91F90096F36F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1C2266231F91F90096F36F /* TweeterZalora */,
+				DB1C227A231F91FB0096F36F /* TweeterZaloraTests */,
+				DB1C2285231F91FB0096F36F /* TweeterZaloraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1C2265231F91F90096F36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1C2275231F91FB0096F36F /* LaunchScreen.storyboard in Resources */,
+				DB1C2272231F91FB0096F36F /* Assets.xcassets in Resources */,
+				DB1C2270231F91F90096F36F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1C2279231F91FB0096F36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1C2284231F91FB0096F36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1C2263231F91F90096F36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1C226D231F91F90096F36F /* ViewController.swift in Sources */,
+				DB1C226B231F91F90096F36F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1C2277231F91FB0096F36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1C2280231F91FB0096F36F /* TweeterZaloraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1C2282231F91FB0096F36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1C228B231F91FB0096F36F /* TweeterZaloraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1C227D231F91FB0096F36F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1C2266231F91F90096F36F /* TweeterZalora */;
+			targetProxy = DB1C227C231F91FB0096F36F /* PBXContainerItemProxy */;
+		};
+		DB1C2288231F91FB0096F36F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1C2266231F91F90096F36F /* TweeterZalora */;
+			targetProxy = DB1C2287231F91FB0096F36F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB1C226E231F91F90096F36F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1C226F231F91F90096F36F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1C2273231F91FB0096F36F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1C2274231F91FB0096F36F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1C228D231F91FB0096F36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1C228E231F91FB0096F36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1C2290231F91FB0096F36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = TweeterZalora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TweeterZalora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1C2291231F91FB0096F36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = TweeterZalora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TweeterZalora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB1C2293231F91FB0096F36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TweeterZaloraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TweeterZaloraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TweeterZalora.app/TweeterZalora";
+			};
+			name = Debug;
+		};
+		DB1C2294231F91FB0096F36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TweeterZaloraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TweeterZaloraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TweeterZalora.app/TweeterZalora";
+			};
+			name = Release;
+		};
+		DB1C2296231F91FB0096F36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TweeterZaloraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TweeterZaloraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TweeterZalora;
+			};
+			name = Debug;
+		};
+		DB1C2297231F91FC0096F36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TweeterZaloraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TweeterZaloraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TweeterZalora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1C2262231F91F90096F36F /* Build configuration list for PBXProject "TweeterZalora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1C228D231F91FB0096F36F /* Debug */,
+				DB1C228E231F91FB0096F36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1C228F231F91FB0096F36F /* Build configuration list for PBXNativeTarget "TweeterZalora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1C2290231F91FB0096F36F /* Debug */,
+				DB1C2291231F91FB0096F36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1C2292231F91FB0096F36F /* Build configuration list for PBXNativeTarget "TweeterZaloraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1C2293231F91FB0096F36F /* Debug */,
+				DB1C2294231F91FB0096F36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1C2295231F91FB0096F36F /* Build configuration list for PBXNativeTarget "TweeterZaloraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1C2296231F91FB0096F36F /* Debug */,
+				DB1C2297231F91FC0096F36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1C225F231F91F90096F36F /* Project object */;
+}
